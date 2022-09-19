@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1 CSS</title>
+    <style>
+      .container {
+        width: 90%;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .tengah {
+        display: flex;
+        justify-content: center;
+      }
+
+      p {
+        margin-top: -15px;
+        margin-bottom: 20px;
+        font-size: 10px;
+      }
+
+      img.profile {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 50%;
+        border: 4px ridge chocolate;
+      }
+
+      .btn-red {
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: inline-block;
+        font-size: 10px;
+      }
+
+      .btn-red:hover {
+        background-color: brown;
+      }
+
+      .btn-blue {
+        color: blue;
+        background-color: white;
+        border: 1px solid blue;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: inline-block;
+        font-size: 10px;
+        margin: 0 10px;
+      }
+
+      .btn-blue:hover {
+        color: aliceblue;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="myself.jpg" class="profile" width="150px" alt="its me" />
+      <h3 class="center">SUHENDRO ADY NUGROHO</h3>
+      <p class="center">I'm a Good Listener</p>
+
+      <div class="tengah">
+        <a href="#" class="btn-red">Media Sosial</a>
+        <a href="#" class="btn-blue">Hubungi Saya</a>
+      </div>
+    </div>
+  </body>
+</html>
